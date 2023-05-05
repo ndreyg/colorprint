@@ -20,6 +20,9 @@ void Painter::printColoredLine(const std::string &line) {
         replacedDigits += c;
         isPrevDigit = isdigit(c);
     }
+    if (isPrevDigit) {
+        replacedDigits += "\033[0m";
+    }
 
     std::string outputLine = replacedDigits;
 
