@@ -1,5 +1,5 @@
-#ifndef LIBCOLORPRINT_LIBRARY_HPP
-#define LIBCOLORPRINT_LIBRARY_HPP
+#ifndef LIBCOLORPRINT_COLORPRINT_HPP
+#define LIBCOLORPRINT_COLORPRINT_HPP
 
 #include <vector>
 #include <string>
@@ -18,7 +18,8 @@ private:
     std::vector<std::string> failPatterns;
 
     static std::vector<std::string> defaultSuccessPatterns();
+
     static std::vector<std::string> defaultFailPatterns();
 };
 
-#endif //LIBCOLORPRINT_LIBRARY_HPP
+#endif //LIBCOLORPRINT_COLORPRINT_HPP

@@ -1,4 +1,4 @@
-#include "library.hpp"
+#include "colorprint.hpp"
 #include <iostream>
 
 Painter::Painter(std::ostream &stream,
